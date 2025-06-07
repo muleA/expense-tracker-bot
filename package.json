@@ -1,0 +1,23 @@
+{
+  "name": "expense-tracker-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "dev": "nodemon src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "csv-writer": "^1.6.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
+    "grammy": "^1.36.3",
+    "pdfkit": "^0.17.1"
+  }
+}
